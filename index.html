@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackGold Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        nav {
+            background-color: #222;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 10%; /* 减少两侧间距 */
+        }
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px; /* logo和文字之间的间距 */
+        }
+        .nav-logo {
+            height: 40px;
+        }
+        .brand-text {
+            color: gold;
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+        .nav-links {
+            display: flex;
+        }
+        nav a {
+            display: block;
+            color: gold;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #444;
+            transform: translateY(-2px);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .logo img {
+            max-width: 200px;
+            height: auto;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3, h4 {
+            color: #000;
+        }
+        h2 {
+            border-bottom: 2px solid gold;
+            padding-bottom: 10px;
+        }
+        .join-btn {
+            display: inline-block;
+            background-color: gold;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+        }
+        .join-btn:hover {
+            background-color: #ffd700;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        /* 新增样式：团队名称和标语居中放大 */
+        .team-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: #000;
+        }
+        .team-slogan {
+            text-align: center;
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .join-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            nav {
+                padding: 0 5%;
+                flex-direction: column;
+                padding: 10px 0;
+            }
+            .nav-brand {
+                margin-bottom: 10px;
+            }
+            .nav-links {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">
+            <img src="https://youke1.picui.cn/s1/2025/09/12/68c42663425e0.png" alt="BlackGold Team Logo" class="nav-logo">
+            <span class="brand-text">BlackGold</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home">首页</a>
+            <a href="#about">团队描述</a>
+            <a href="#rules">团队规则</a>
+        </div>
+    </nav>
+
+    <div class="container" id="home">
+        <div class="logo">
+            <img src="https://youke1.picui.cn/s1/2025/09/12/68c42663425e0.png" alt="BlackGold Team Logo">
+        </div>
+
+        <div class="section" id="about">
+            <div class="team-title">
+                黑金国际股份有限公司团队官方网站
+            </div>
+            <div class="team-slogan">
+                一个可以让你学习无尽多的C++知识的团队👍
+            </div>
+            
+            <div class="join-container">
+                <a href="https://www.acgo.cn/application/1938125890793713664" class="join-btn">立即加入团队</a>
+            </div>
+        </div>
+
+        <div class="section" id="rules">
+            <h2>团队规则</h2>
+
+            <h3>1. 职位说明</h3>
+            <h4>1.1 职位要求</h4>
+            <ul>
+                <li><strong>禁止乱用职位踢人</strong></li>
+                <li><strong>禁止乱修改团队公告和昵称</strong></li>
+                <li><strong>禁止乱删除题库、题单、竞赛、作业</strong></li>
+            </ul>
+
+            <h4>1.2 职位乱用处罚</h4>
+            <ul>
+                <li><strong>轻则监狱</strong></li>
+                <li><strong>中则踢队</strong></li>
+                <li><strong>重则上报AC君</strong></li>
+            </ul>
+
+            <h3>2. 竞赛说明</h3>
+            <h4>🛑 2.1 多账号禁止</h4>
+            <ul>
+                <li>每位选手 <strong>仅限使用一个账号参赛</strong></li>
+                <li>禁止同时使用多个账号（如小号、大号、他人账号）参赛</li>
+                <li>一经发现，取消本次奖励，并视情节予以小黑屋处理</li>
+            </ul>
+
+            <h4>🚫 2.2 禁止作弊行为</h4>
+            <ul>
+                <li>比赛期间，严禁：
+                    <ul>
+                        <li>向他人索要答案（包括私信、群聊或线下）</li>
+                        <li>委托他人代答</li>
+                        <li>为他人提供解题协助</li>
+                    </ul>
+                </li>
+                <li>一经核实，取消奖励并严肃处理</li>
+            </ul>
+
+            <h4>⚠️ 2.3 禁止使用 AI 工具</h4>
+            <ul>
+                <li>禁止借助 AI 获取题解、代码、调试、修复建议或构建思路</li>
+                <li>若发现使用 AI 辅助行为，取消奖励并酌情处罚</li>
+            </ul>
+
+            <h3>3. 升职规则</h3>
+            <p>参加升职竞赛，取前三名进行升值（<em>作弊者小黑屋处理</em>）</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BlackGold Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
